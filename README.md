@@ -66,7 +66,7 @@ In the root directory of your project, create a file named `.env` where you will
 
 Add the following variables to your `.env` file. Replace the placeholder values with your actual credentials.
 
-```plaintext
+```env
 # Google Maps API Key
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```
@@ -104,15 +104,6 @@ Make sure the project is set up to read environment variables from the `.env` fi
 ### 5. Secure Your Environment Variables
 
 Make sure that your `.env` file is included in your `.gitignore` file to prevent it from being pushed to a public repository. This ensures your sensitive credentials remain secure.
-
-### Example `.env` File
-
-Here’s an example of how your `.env` file should look:
-
-```env
-# Google Maps API Key
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-```
 
 By following these steps, you ensure that your application is correctly configured to use the Google Maps API and securely store the necessary credentials.
 
