@@ -54,6 +54,72 @@ My Favorite Places is a React Native application that allows users to explore an
     npm install
     ```
 
+## Set up Environment Variables
+
+To run this application, you'll need to set up several environment variables. These variables are essential for connecting to external services like Google Maps API. Follow these steps:
+
+### 1. Create a `.env` File
+
+In the root directory of your project, create a file named `.env` where you will store these variables.
+
+### 2. Define the Required Environment Variables
+
+Add the following variables to your `.env` file. Replace the placeholder values with your actual credentials.
+
+```plaintext
+# Google Maps API Key
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+Replace `your_google_maps_api_key` with the actual API key obtained from Google Cloud Console.
+
+### 3. Obtain Necessary Credentials and API Keys
+
+#### Google Maps API Key:
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project or select an existing project.
+3. Enable the **Maps SDK for Android**, **Maps SDK for iOS**, and any other Google Maps APIs needed (e.g., **Geocoding API**, **Static Maps API**).
+4. Go to "APIs & Services" → "Credentials" and create a new **API key**.
+5. Restrict the API key's usage to your project if needed for security purposes.
+
+### 4. Update the Code to Use the Environment Variable
+
+Make sure the project is set up to read environment variables from the `.env` file. You can use libraries like `react-native-dotenv` or `dotenv` for this purpose. Here's an example using `dotenv`:
+
+1. Install the package:
+   ```bash
+   npm install dotenv
+   ```
+
+2. At the top of your `util/location.ts` file, load the environment variables:
+
+   ```javascript
+   import { config } from 'dotenv';
+   config();
+
+   const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
+   ```
+
+### 5. Secure Your Environment Variables
+
+Make sure that your `.env` file is included in your `.gitignore` file to prevent it from being pushed to a public repository. This ensures your sensitive credentials remain secure.
+
+### Example `.env` File
+
+Here’s an example of how your `.env` file should look:
+
+```plaintext
+# Environment configuration
+NODE_ENV=development
+PORT=3000
+
+# Google Maps API Key
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+By following these steps, you ensure that your application is correctly configured to use the Google Maps API and securely store the necessary credentials.
+
 ## Usage
 
 ### 1. Starting the Development Server
