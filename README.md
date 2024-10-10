@@ -13,6 +13,7 @@ My Favorite Places is a React Native application that allows users to explore an
 - [Project Title and Description](#project-title-and-description)
 - [Features](#features)
 - [Installation (for Development)](#installation-for-development)
+- [Set up Environment Variables](#set-up-environment-variables)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Demo (for End Users)](#demo-for-end-users)
