@@ -109,7 +109,7 @@ Make sure that your `.env` file is included in your `.gitignore` file to prevent
 
 Here’s an example of how your `.env` file should look:
 
-```plaintext
+```env
 # Environment configuration
 NODE_ENV=development
 PORT=3000
