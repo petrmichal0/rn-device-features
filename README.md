@@ -7,7 +7,7 @@ My Favorite Places is a React Native application that allows users to explore an
 ![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
 ## Quick Look
-<img src="https://github.com/user-attachments/assets/b63eba49-17db-4003-98d6-e84473b3c15d" width="250" alt="My Favorite Places App Demo">
+<img src="https://github.com/user-attachments/assets/3aacf781-597f-443c-999e-884cc86da003" width="250" alt="My Favorite Places App Demo">
 
 ## Table of Content
 - [Project Title and Description](#project-title-and-description)
@@ -82,17 +82,25 @@ To run the app on a simulator or physical device:
   </tr>
   <tr>
     <td style="border: 1px solid black;">
-      <img src="https://github.com/user-attachments/assets/screenshot1.png" width="130" height="300" alt="All Places Screen">
-    </td>
-    <td style="border: 1px solid black;">
-      <img src="https://github.com/user-attachments/assets/screenshot2.png" width="130" height="300" alt="Place Details">
-    </td>
-    <td style="border: 1px solid black;">
-      <img src="https://github.com/user-attachments/assets/screenshot3.png" width="130" height="300" alt="Add Place">
-    </td>
-    <td style="border: 1px solid black;">
-      <img src="https://github.com/user-attachments/assets/screenshot4.png" width="130" height="300" alt="Pick a Location">
-    </td>
+  <a href="https://github.com/user-attachments/assets/434527d2-f0d9-47c0-a288-7298bb50a67d" target="_blank">
+    <img src="https://github.com/user-attachments/assets/434527d2-f0d9-47c0-a288-7298bb50a67d" width="130" height="300" alt="All Places Screen">
+  </a>
+</td>
+<td style="border: 1px solid black;">
+  <a href="https://github.com/user-attachments/assets/3199ab21-d16e-465a-9ec7-eac7d1dc57ad" target="_blank">
+    <img src="https://github.com/user-attachments/assets/3199ab21-d16e-465a-9ec7-eac7d1dc57ad" width="130" height="300" alt="Place Details">
+  </a>
+</td>
+<td style="border: 1px solid black;">
+  <a href="https://github.com/user-attachments/assets/88f0720b-cdf1-4983-92dc-4946c3b4d969" target="_blank">
+    <img src="https://github.com/user-attachments/assets/88f0720b-cdf1-4983-92dc-4946c3b4d969" width="130" height="300" alt="Add Place">
+  </a>
+</td>
+<td style="border: 1px solid black;">
+  <a href="https://github.com/user-attachments/assets/25df58d8-428c-4aad-8bf5-a868e84ae620" target="_blank">
+    <img src="https://github.com/user-attachments/assets/25df58d8-428c-4aad-8bf5-a868e84ae620" width="130" height="300" alt="Pick a Location">
+  </a>
+</td>
   </tr>
 </table>
 
