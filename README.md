@@ -110,10 +110,6 @@ Make sure that your `.env` file is included in your `.gitignore` file to prevent
 Here’s an example of how your `.env` file should look:
 
 ```env
-# Environment configuration
-NODE_ENV=development
-PORT=3000
-
 # Google Maps API Key
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```
